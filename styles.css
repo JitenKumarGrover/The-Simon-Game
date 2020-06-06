@@ -17,11 +17,11 @@ body {
 
 }
 
-.btn {
+.btn_game {
   margin: 25px;
   display: inline-block;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -50,4 +50,20 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.btn_start {
+  font-size: 60px;
+  padding: 12px 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+  background-color: #011F3F;
+  border-radius: 10%;
+  border-color: black;
+  border: 1px solid;
+}
+
+.btn_start:hover{
+  background-color: #feceab;
+  opacity: .5;
 }
