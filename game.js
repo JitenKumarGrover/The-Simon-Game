@@ -7,13 +7,10 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
  
- $(document).on("touchStart keypress",function(){
-   if(!started){
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-  }
-  });
+$(document).on('input', function(e) {
+  var key = e.which || this.value.substr(-1).charCodeAt(0);
+  alert( key );
+});
  
 // $(document).keypress(function() {
 //   if(!started){
