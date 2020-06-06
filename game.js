@@ -77,3 +77,10 @@ function playSound(name){
         gamePattern = [];
         started = false;
         }
+
+
+      width= $( document ).width();
+
+      if(width < 1100){
+        $("#level-title").text("Tab anywhere on screen to Start ");
+      }
